@@ -1,0 +1,33 @@
+header {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  height: 8rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 3rem;
+  margin-top: -0.5rem;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+}

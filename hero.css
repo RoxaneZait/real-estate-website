@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 10rem);
+  padding-top: 8rem;
+  background-image: url(./assets/building.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.hero-text-container {
+  width: 50%;
+}
+
+.hero-text-item,
+.hero-button {
+  margin-top: 2rem;
+}
+
+.hero-text-item {
+  max-width: 40rem;
+}
